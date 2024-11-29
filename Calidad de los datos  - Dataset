@@ -1,0 +1,40 @@
+# Check Data Types and Missing Values
+
+# Verificar tipos de datos y valores nulos
+print(df.info())
+
+# Verificar valores nulos en cada columna
+missing_values = df.isnull().sum()
+print(missing_values)
+
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 13 columns):
+ #   Column              Non-Null Count  Dtype  
+---  ------              --------------  -----  
+ 0   Fecha               500 non-null    object 
+ 1   Producto            500 non-null    object 
+ 2   Categoría           500 non-null    object 
+ 3   Región              500 non-null    object 
+ 4   Canal de Venta      500 non-null    object 
+ 5   Ventas ($)          500 non-null    float64
+ 6   Costo ($)           500 non-null    float64
+ 7   Cantidad            500 non-null    int64  
+ 8   Método de Pago      500 non-null    object 
+ 9   Cliente Repetitivo  500 non-null    object 
+ 10  Rating              500 non-null    float64
+ 11  Ganancia Bruta      500 non-null    float64
+ 12  Margen (%)          500 non-null    float64
+dtypes: float64(5), int64(1), object(7)
+memory usage: 50.9+ KB
+None
+Fecha                 0
+Producto              0
+Categoría             0
+Región                0
+...
+Rating                0
+Ganancia Bruta        0
+Margen (%)            0
+dtype: int64
