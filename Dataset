@@ -3,3 +3,4 @@ data/ → Archivos de datos (solo datasets pequeños).
 notebooks/ → Scripts de Python, Jupyter Notebooks o análisis detallados.
 outputs/ → Visualizaciones, gráficos o archivos generados.
 docs/ → Documentación adicional.
+link dataset : https://www.kaggle.com/datasets/markmedhat/supermarket-sales/data
