@@ -1,6 +1,25 @@
-Exploración y limpieza de datos 
-data/ → Archivos de datos (solo datasets pequeños).
-notebooks/ → Scripts de Python, Jupyter Notebooks o análisis detallados.
-outputs/ → Visualizaciones, gráficos o archivos generados.
-docs/ → Documentación adicional.
+Descripcion y vista general del dataset 
+Ventas ($)   Costo ($)    Cantidad      Rating  Ganancia Bruta  \
+count  500.000000  500.000000  500.000000  500.000000      500.000000   
+mean   517.682020  259.331760    5.660000    3.009400      258.350260   
+std    285.216702  140.715542    2.833453    1.123074      321.809469   
+min     10.650000    6.120000    1.000000    1.000000     -455.020000   
+25%    280.175000  139.337500    3.000000    2.075000        6.340000   
+50%    514.515000  272.565000    6.000000    2.900000      267.345000   
+75%    759.375000  384.065000    8.000000    3.900000      495.742500   
+max    995.370000  498.940000   10.000000    5.000000      898.340000   
+
+        Margen (%)  
+count   500.000000  
+mean    -19.756591  
+std     275.651353  
+min   -3345.383412  
+25%       1.409802  
+50%      50.285032  
+75%      73.962797  
+max      99.148322  
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 13 columns):
+
 link dataset : https://www.kaggle.com/datasets/markmedhat/supermarket-sales/data
